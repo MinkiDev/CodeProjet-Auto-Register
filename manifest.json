@@ -1,0 +1,21 @@
+{
+    "name": "CodeProject Auto Register",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "description": "CodeProject Auto Register",
+    "homepage_url": "https://github.com/minkidev",
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": true
+    },
+    "browser_action": {
+        "default_title": "Click to Auto Register in CodeProject"
+    },
+    "permissions": [
+        "https://*/*",
+        "http://*/*",
+        "tabs"
+    ]
+}
